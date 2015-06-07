@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>BranchNet</id>
+    <version>1.0.0</version>
+    <title>BranchNet</title>
+    <authors>dgilling</authors>
+    <owners>dgilling</owners>
+    <licenseUrl>https://github.com/dgilling</licenseUrl>
+    <projectUrl>https://github.com/dgillingt</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.Net wrapper for Branch.io </description>
+    <language>en-US</language>
+    <tags>branch metrics branch.io deep link referral</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.4" />
+      <dependency id="Microsoft.Net.Http" version="2.2.28" />
+      <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\BranchNet.dll" target="lib\portable-net45+sl5+wp8+win8\BranchNet.dll" />
+  </files>
+</package>
