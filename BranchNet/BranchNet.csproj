@@ -8,8 +8,8 @@
     <ProjectGuid>{67B7EA6F-DC34-4F48-8331-58DF137D78C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BranchNer</RootNamespace>
-    <AssemblyName>BranchNer</AssemblyName>
+    <RootNamespace>BranchNet</RootNamespace>
+    <AssemblyName>BranchNet</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

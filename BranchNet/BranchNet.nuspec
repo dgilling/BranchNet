@@ -7,8 +7,8 @@
     <title>BranchNet</title>
     <authors>dgilling</authors>
     <owners>dgilling</owners>
-    <licenseUrl>https://github.com/dgilling</licenseUrl>
-    <projectUrl>https://github.com/dgillingt</projectUrl>
+    <licenseUrl>https://github.com/dgilling/BranchNet/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/dgilling/BranchNet</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>.Net wrapper for Branch.io </description>
     <language>en-US</language>
@@ -19,7 +19,4 @@
       <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="bin\Release\BranchNet.dll" target="lib\portable-net45+sl5+wp8+win8\BranchNet.dll" />
-  </files>
 </package>
