@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Collections.Generic;
 using BranchNet.Extensions;
+using BranchNet.Constants;
 
 namespace BranchNet.Models
 {
@@ -11,7 +12,7 @@ namespace BranchNet.Models
 
         public string Alias { get; set; }
 
-        public int Type { get; set; }
+        public UrlType Type { get; set; }
 
         public int Duration { get; set; }
 

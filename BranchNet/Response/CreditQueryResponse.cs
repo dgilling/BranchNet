@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Net.Http;
+using System.Collections.Generic;
 using BranchNet.Extensions;
 using BranchNet.Models;
 
@@ -17,9 +18,9 @@ namespace BranchNet.Response
         {
         }
 
-        public CreditQuery Result
+        public IEnumerable<CreditQuery> Result
         {
-            get { return ResultAs<CreditQuery>(); }
+            get { return ResultAs<IEnumerable<CreditQuery>>(); }
         }
     }
 }

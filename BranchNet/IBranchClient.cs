@@ -8,7 +8,6 @@ namespace BranchNet.HttpService
 {
     public interface IBranchClient
     {
-        // Synchronous Methods
         UrlResponse CreateUrl<U, D>(U parameters) where U : UrlParameters<D>
                                                   where D : UrlDataParameters;
 

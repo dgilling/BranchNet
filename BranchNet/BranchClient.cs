@@ -134,7 +134,7 @@ namespace BranchNet
         {
             try
             {
-                StringBuilder builder = new StringBuilder("/v1/credits?branch_key=");
+                StringBuilder builder = new StringBuilder("/v1/credithistory?branch_key=");
                 builder.Append(_config.BranchKey);
                 builder.Append("&identity=");
                 builder.Append(identity);
@@ -261,7 +261,7 @@ namespace BranchNet
         {
             try
             {
-                StringBuilder builder = new StringBuilder("/v1/credits?branch_key=");
+                StringBuilder builder = new StringBuilder("/v1/credithistory?branch_key=");
                 builder.Append(_config.BranchKey);
                 builder.Append("&identity=");
                 builder.Append(identity);

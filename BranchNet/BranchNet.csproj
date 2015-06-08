@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="Config\BranchConfig.cs" />
     <Compile Include="Config\IBranchConfig.cs" />
+    <Compile Include="Constants\UrlType.cs" />
     <Compile Include="Constants\CreditType.cs" />
     <Compile Include="Constants\Ordering.cs" />
     <Compile Include="Constants\BranchConstants.cs" />

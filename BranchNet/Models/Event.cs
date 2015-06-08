@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Net.Http;
+using System.Collections.Generic;
 using BranchNet.Extensions;
 
 namespace BranchNet.Models
@@ -9,6 +10,6 @@ namespace BranchNet.Models
     {
         public string Name { get; set; }
 
-        public string Metadata { get; set; }
+        public Dictionary<string, string> Metadata { get; set; }
     }
 }
