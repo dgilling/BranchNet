@@ -15,6 +15,10 @@
     <PackageLicenseUrl>https://github.com/dgilling/BranchNet/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/dgilling/BranchNet</PackageProjectUrl>
     <PackageTags>branch metrics branch.io deep link referral</PackageTags>
+    <BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
+    <Version>1.0.$(BuildNumber)</Version>
+    <AssemblyVersion>1.0.0.$(BuildNumber)</AssemblyVersion>
+    <FileVersion>1.0.0.$(BuildNumber)</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\projects\BranchNet" t="IncludeFlat">
+      <e p="BranchNet" t="IncludeRecursive">
+        <e p=".gitattributes" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="Backup" t="Include">
+          <e p="AssemblyInfo.cs.old" t="Include" />
+          <e p="BranchNet.csproj.old" t="Include" />
+          <e p="BranchNet.nuspec.old" t="Include" />
+          <e p="packages.config.old" t="Include" />
+        </e>
+        <e p="Backup1" t="Include">
+          <e p="BranchNet.csproj.old" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BranchClient.cs" t="Include" />
+        <e p="BranchNet.csproj" t="IncludeRecursive" />
+        <e p="Config" t="Include">
+          <e p="BranchConfig.cs" t="Include" />
+          <e p="IBranchConfig.cs" t="Include" />
+        </e>
+        <e p="Constants" t="Include">
+          <e p="BranchConstants.cs" t="Include" />
+          <e p="CreditType.cs" t="Include" />
+          <e p="Ordering.cs" t="Include" />
+          <e p="UrlType.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="BranchException.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="ObjectExtensions.cs" t="Include" />
+        </e>
+        <e p="HttpClient" t="Include">
+          <e p="HttpService.cs" t="Include" />
+          <e p="IHttpService.cs" t="Include" />
+        </e>
+        <e p="IBranchClient.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="BaseAuthenticatedPayload.cs" t="Include" />
+          <e p="CreditParameters.cs" t="Include" />
+          <e p="CreditQuery.cs" t="Include" />
+          <e p="Event.cs" t="Include" />
+          <e p="ReconcileTransaction.cs" t="Include" />
+          <e p="Transaction.cs" t="Include" />
+          <e p="UrlDataParameters.cs" t="Include" />
+          <e p="UrlParameters.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="BranchNet.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Response" t="Include">
+          <e p="BranchBaseResponse.cs" t="Include" />
+          <e p="CreditCountResponse.cs" t="Include" />
+          <e p="CreditQueryResponse.cs" t="Include" />
+          <e p="ReconcileTransactionResponse.cs" t="Include" />
+          <e p="SuccessResponse.cs" t="Include" />
+          <e p="UrlResponse.cs" t="Include" />
+        </e>
+        <e p="Serializer" t="Include">
+          <e p="ISerializer.cs" t="Include" />
+          <e p="JsonNetSerializer.cs" t="Include" />
+          <e p="SnakeCaseContractResolver.cs" t="Include" />
+        </e>
+      </e>
+      <e p="BranchNet.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\alex_\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\alex_\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_BranchNet.1502178513.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchNet", "BranchNet\BranchNet.csproj", "{67B7EA6F-DC34-4F48-8331-58DF137D78C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchNetStandard", "BranchNetStandard\BranchNetStandard.csproj", "{67B7EA6F-DC34-4F48-8331-58DF137D78C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
