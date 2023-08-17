@@ -14,6 +14,6 @@ namespace BranchNet.Constants
 
         public const string REFERRAL_BUCKET_DEFAULT = "default";
 
-        internal const string API_ENDPOINT_BASE_ADDRESS = "https://api.branch.io/";
+        internal const string API_ENDPOINT_BASE_ADDRESS = "https://api2.branch.io/";
     }
 }
